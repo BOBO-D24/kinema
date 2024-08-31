@@ -1,0 +1,63 @@
+
+.body-bg{
+    background-color: rgb(37, 37, 37) !important;
+    color: azure !important;
+    background-image: url(/assets/images/login-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    size: 100vh;
+    /* ---height:(size); */
+    height: 100vh !important;
+}
+a{
+    text-decoration: none !important;
+    text-transform: none;
+}
+.logo{
+    width: 7em;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    font-size: 18px;
+    /* object-fit: cover; */
+    margin-top: -54px;
+}
+button, .btn{
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    color: white;
+    height: 3em;
+ }
+/* animation  */
+.slide-in-right {
+	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
