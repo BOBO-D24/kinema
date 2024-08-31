@@ -1,2 +1,2 @@
-# loginpage.html
+# joinkinema/index.html
  an app like Netflix
